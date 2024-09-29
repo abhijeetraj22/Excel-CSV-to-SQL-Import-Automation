@@ -1,0 +1,30 @@
+For Microsoft Access Database Engine 2016 Redistributable -- 64bits/32bits
+https://www.microsoft.com/en-us/download/details.aspx?id=54920
+
+For Microsoft Access Database Engine 2010(2012) Redistributable -- 32bits
+https://download.cnet.com/microsoft-access-database-engine-2010-redistributable-32-bit/3000-10254_4-75452795.html
+
+In CMD 
+AccessDatabaseEngine.exe /passive
+AccessDatabaseEngine.exe /quiet
+AccessDatabaseEngine_X64.exe /quiet
+
+
+Command Prompt (run as administrator): Verify Registration
+regsvr32 "C:\Program Files\Common Files\Microsoft Shared\OFFICE16\ACEOLEDB.DLL"
+
+For SQL Server Integration Services Projects 2019
+https://marketplace.visualstudio.com/items?itemName=SSIS.SqlServerIntegrationServicesProjects
+
+
+For SQL Server Integration Services Projects 2022
+https://marketplace.visualstudio.com/items?itemName=SSIS.MicrosoftDataToolsIntegrationServices
+
+Search ODBC 64bits/32bits then 
+Create User DSN -> Add -> Select Microsoft Excel Driver ->Finish Click -> Enter Data Source Name ->OK
+Create System DSN -> Add -> Select Microsoft Excel Driver ->Finish Click -> Enter Data Source Name ->OK
+
+Open SQL Server Installation Center -> Click Installation -> Click New SQL Server standalone installation or 
+add features to an existing installation -> Feature Selection -> Mark Integration Services , Scale Out Master , Scale Out Worker
+-> Database Engine Configuration (if selected Database Engine in Feature Selection) -> click Mixed Mode 
+-> Enter Password and then click Add Current User
