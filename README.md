@@ -204,11 +204,6 @@ SSMS → SQL Server Agent → Jobs → New Job → Add Step → Type: SSIS → P
 
 ---
 
-Would you like this guide saved as a PDF or Markdown (`.md`) file for your repo?
-
-
----
-
 ## 🧪 Job Setup (Step-by-Step)
 
 ### ✅ Step 1: Enable SQL Server Agent
